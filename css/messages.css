@@ -5,3 +5,38 @@ body, html {
     margin: 0;
     font-family: Arial, Ubuntu, sans-serif;
 }
+/*target class="message message-info" to add a rounded box with a blue background with dark blue text*/
+.message-info {
+    background-color: #2196F3;
+    color: #0D47A1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*target class="message message-success" to add a rounded box with a green background with dark green text*/
+.message-success {
+    background-color: #4CAF50;
+    color: #1B5E20;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*target class="message message-warning" to add a rounded box with a yellow background with dark yellow text*/
+.message-warning {
+    background-color: #FFEB3B;
+    color: #F57F17;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/*target class="message message-error" to add a rounded box with a red background with dark red text*/
+.message-error {
+    background-color: #F44336;
+    color: #B71C1C;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
