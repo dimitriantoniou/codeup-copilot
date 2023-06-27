@@ -1,30 +1,38 @@
+/* asked chat GPT to: eplace the selector in this styling to target id = "container" for the given code
+
 /* selector for id="container" */
-selector-todo {
+#container {
     margin: 50px auto;
     width: 500px;
     padding: 10px;
+}
 
+/* copy pasted given prompt directly into chatGPT*/
 /*  selector for all "h1" elements
     that are a descendent of id="container"
     and have a class of "fancy-header" */
-
-selector-todo {
-    color: blue;
-    text-decoration: underline;
-}
-
+    #container .fancy-header {
+        color: blue;
+        text-decoration: underline;
+    }
+    
+/* copy pasted given prompt directly into chatGPT*/
 /* selector for all "em" elements */
-selector-todo {
+em {
     font-weight: bold;
 }
 
+/* copy pasted given prompt directly into chatGPT*/
 /* selector for all elements with class="article" */
-selector-todo {
-    clear:both;
+.article {
+    clear: both;
 }
 
+
+/* copy pasted given prompt directly into chatGPT*/
 /*  selector for all "anchor" elements
     that are a direct child of an element with class="article" */
-selector-todo {
-    float:right;
-}
+    .article > a {
+        float: right;
+    }
+    
